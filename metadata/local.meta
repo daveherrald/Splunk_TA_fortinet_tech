@@ -16,3 +16,67 @@ access = read : [ * ], write : [ admin, power ]
 export = system
 version = 6.2.1
 modtime = 1419372779.730800000
+
+[eventtypes/Default_Authentication_Failed]
+access = read : [ * ], write : [ admin ]
+export = system
+owner = admin
+version = 6.2.1
+modtime = 1419875738.443767000
+
+[eventtypes/Default_Authentication_Succeeded]
+access = read : [ * ], write : [ admin ]
+export = system
+owner = admin
+version = 6.2.1
+modtime = 1419875743.408827000
+
+[tags/eventtype%3DDefault_Authentication_Failed]
+access = read : [ * ], write : [ admin ]
+export = system
+owner = admin
+version = 6.2.1
+modtime = 1419875738.445276000
+
+[tags/eventtype%3DDefault_Authentication_Succeeded]
+access = read : [ * ], write : [ admin ]
+export = system
+owner = admin
+version = 6.2.1
+modtime = 1419875743.410357000
+
+[eventtypes/Fortinet_Web_Filter]
+access = read : [ * ], write : [ admin ]
+export = system
+owner = admin
+version = 6.2.1
+modtime = 1419903839.159697000
+
+[tags/eventtype%3DFortinet_Web_Filter]
+owner = admin
+version = 6.2.1
+modtime = 1419903839.162744000
+
+[eventtypes/Fortinet_DNS]
+access = read : [ * ], write : [ admin ]
+export = system
+owner = admin
+version = 6.2.1
+modtime = 1419904754.488828000
+
+[tags/eventtype%3DFortinet_DNS]
+owner = admin
+version = 6.2.1
+modtime = 1419904754.498206000
+
+[eventtypes/Fortinet_Application_Control]
+access = read : [ * ], write : [ admin ]
+export = system
+owner = admin
+version = 6.2.1
+modtime = 1419905549.134664000
+
+[tags/eventtype%3DFortinet_Application_Control]
+owner = admin
+version = 6.2.1
+modtime = 1419905549.139221000
