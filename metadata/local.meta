@@ -80,3 +80,59 @@ modtime = 1419905549.134664000
 owner = admin
 version = 6.2.1
 modtime = 1419905549.139221000
+
+[eventtypes/fortigate_web_filter]
+access = read : [ * ], write : [ admin ]
+export = system
+owner = admin
+version = 6.2.1
+modtime = 1419913131.682813000
+
+[tags/eventtype%3Dfortigate_web_filter]
+access = read : [ * ], write : [ admin ]
+export = system
+owner = admin
+version = 6.2.1
+modtime = 1419913131.685429000
+
+[eventtypes/fortigate_av]
+access = read : [ * ], write : [ admin ]
+export = system
+owner = admin
+version = 6.2.1
+modtime = 1419953493.149858000
+
+[tags/eventtype%3Dfortigate_av]
+access = read : [ * ], write : [ admin ]
+export = system
+owner = admin
+version = 6.2.1
+modtime = 1419953493.152439000
+
+[eventtypes/fortigate_vpn_login_fail]
+access = read : [ * ], write : [ admin ]
+export = system
+owner = admin
+version = 6.2.1
+modtime = 1419961290.088630000
+
+[tags/eventtype%3Dfortigate_vpn_login_fail]
+access = read : [ * ], write : [ admin ]
+export = system
+owner = admin
+version = 6.2.1
+modtime = 1419961290.092201000
+
+[eventtypes/fortigate_vpn_established]
+access = read : [ * ], write : [ admin ]
+export = system
+owner = admin
+version = 6.2.1
+modtime = 1419961300.417781000
+
+[tags/eventtype%3Dfortigate_vpn_established]
+access = read : [ * ], write : [ admin ]
+export = system
+owner = admin
+version = 6.2.1
+modtime = 1419961300.420533000
