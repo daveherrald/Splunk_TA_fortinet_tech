@@ -136,3 +136,31 @@ export = system
 owner = admin
 version = 6.2.1
 modtime = 1419961300.420533000
+
+[eventtypes/fortigate_configuration_change]
+access = read : [ * ], write : [ admin ]
+export = system
+owner = admin
+version = 6.2.1
+modtime = 1419970664.278829000
+
+[tags/eventtype%3Dfortigate_configuration_change]
+access = read : [ * ], write : [ admin ]
+export = system
+owner = admin
+version = 6.2.1
+modtime = 1419970664.281605000
+
+[eventtypes/fortigate_user_crud]
+access = read : [ * ], write : [ admin ]
+export = system
+owner = admin
+version = 6.2.1
+modtime = 1419971260.703668000
+
+[tags/eventtype%3Dfortigate_user_crud]
+access = read : [ * ], write : [ admin ]
+export = system
+owner = admin
+version = 6.2.1
+modtime = 1419971260.706591000
