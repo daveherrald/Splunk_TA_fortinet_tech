@@ -1,10 +1,10 @@
 [app/ui]
-version = 6.2.0
-modtime = 1415333199.530476000
+version = 6.2.2
+modtime = 1427496228.934066000
 
 [app/launcher]
-version = 6.2.0
-modtime = 1415333199.531529000
+version = 6.2.2
+modtime = 1427496228.936074000
 
 [inputs/monitor%3A%2F%2F%2Fvar%2Flog%2Fremote%2Foakridge]
 owner = admin
@@ -164,3 +164,7 @@ export = system
 owner = admin
 version = 6.2.1
 modtime = 1419971260.706591000
+
+[app/package/check_for_updates]
+version = 6.2.2
+modtime = 1427496228.937643000
