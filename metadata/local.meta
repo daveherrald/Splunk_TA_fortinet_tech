@@ -6,6 +6,10 @@ modtime = 1429159171.329251000
 version = 6.2.2
 modtime = 1429159171.331269000
 
+[eventgen]
+access = read : [ * ], write : [ admin ]
+export = system
+
 [inputs/monitor%3A%2F%2F%2Fvar%2Flog%2Fremote%2Foakridge]
 owner = admin
 version = 6.2.0
